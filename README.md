@@ -72,3 +72,16 @@ NeuroAssistAI/
 ├── images/              # Demo/test images
 ├── requirements.txt     # Required libraries
 └── README.md            # You're here!
+
+---
+## 👩‍💻 Project Developed By
+
+**Afnan Shoukat**  
+🎓 Bachelors in Artificial Intelligence 
+📍 Islamabad, Pakistan  
+📧 [afnanshoukat011@gmail.com](mailto:afnanshoukat35@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/afnan-shoukat-030306267)
+
+> Passionate about AI for healthcare, building tools that assist doctors and make a real difference.
+
+
