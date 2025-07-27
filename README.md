@@ -72,8 +72,9 @@ NeuroAssistAI/
 ├── images/              # Demo/test images
 ├── requirements.txt     # Required libraries
 └── README.md            # You're here!
+```
 
----
+
 ## 👩‍💻 Project Developed By
 
 **Afnan Shoukat**  
