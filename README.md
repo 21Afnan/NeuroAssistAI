@@ -1,13 +1,13 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1A0B2E,50:4A1D7A,100:B388FF&height=210&section=header&text=NeuroAssistAI&fontSize=54&fontColor=FFFFFF&fontAlignY=36&desc=Reproducing%20deep-learning%20research%20for%20brain%20tumour%20diagnosis&descSize=16&descAlignY=58" width="100%" alt="NeuroAssistAI"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4A0D2E,50:C2185B,100:FF8FC7&height=210&section=header&text=NeuroAssistAI&fontSize=54&fontColor=FFFFFF&fontAlignY=36&desc=Reproducing%20deep-learning%20research%20for%20brain%20tumour%20diagnosis&descSize=16&descAlignY=58" width="100%" alt="NeuroAssistAI"/>
 
 <p>
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"/>
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"/>
   <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV"/>
   <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel"/>
-  <img src="https://img.shields.io/badge/License-MIT-B388FF?style=for-the-badge" alt="MIT License"/>
+  <img src="https://img.shields.io/badge/License-MIT-FF4FA3?style=for-the-badge" alt="MIT License"/>
 </p>
 
 **[Live demo](https://neuroassistai.vercel.app/)** · [Source paper](https://onlinelibrary.wiley.com/doi/full/10.1155/2022/1830010) · [Dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset)
@@ -103,9 +103,9 @@ This is a research and learning project. It is not a medical device and must not
 
 Team course project by **Afnan Shoukat** and classmates, BS Artificial Intelligence, NUML Islamabad
 
-<a href="mailto:afnanshoukat35@gmail.com"><img src="https://img.shields.io/badge/Email-afnanshoukat35%40gmail.com-B388FF?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1A0B2E" alt="Email"/></a>
-<a href="https://www.linkedin.com/in/afnanshoukat"><img src="https://img.shields.io/badge/LinkedIn-Afnan%20Shoukat-B388FF?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1A0B2E" alt="LinkedIn"/></a>
-<a href="https://github.com/21Afnan"><img src="https://img.shields.io/badge/GitHub-21Afnan-B388FF?style=for-the-badge&logo=github&logoColor=white&labelColor=1A0B2E" alt="GitHub"/></a>
+<a href="mailto:afnanshoukat35@gmail.com"><img src="https://img.shields.io/badge/Email-afnanshoukat35%40gmail.com-FF4FA3?style=for-the-badge&logo=gmail&logoColor=white&labelColor=4A0D2E" alt="Email"/></a>
+<a href="https://www.linkedin.com/in/afnanshoukat"><img src="https://img.shields.io/badge/LinkedIn-Afnan%20Shoukat-FF4FA3?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=4A0D2E" alt="LinkedIn"/></a>
+<a href="https://github.com/21Afnan"><img src="https://img.shields.io/badge/GitHub-21Afnan-FF4FA3?style=for-the-badge&logo=github&logoColor=white&labelColor=4A0D2E" alt="GitHub"/></a>
 
 Released under the [MIT License](LICENSE).
 
