@@ -18,12 +18,13 @@
 
 ## What this project is
 
-A [2022 study on brain tumour classification and glioma stage prediction](https://onlinelibrary.wiley.com/doi/full/10.1155/2022/1830010) described its method but published no code. **NeuroAssistAI** is our rebuild of that work from the paper alone, done as course research for Artificial Neural Networks and Computer Vision at NUML, and then turned into a working web application that a non-specialist can use.
+A [2022 study on multi-class brain tumour classification](https://onlinelibrary.wiley.com/doi/full/10.1155/2022/1830010) described its method but published no code. **NeuroAssistAI** starts as our rebuild of that work from the paper alone, done as course research for Artificial Neural Networks and Computer Vision at NUML, and then turned into a working web application that a non-specialist can use.
 
-It follows the paper's two-step idea:
+The project grew in three stages:
 
 1. **Is there a tumour, and what kind?** A CNN reads an MRI scan and sorts it into glioma, meningioma, pituitary or no tumour.
-2. **If it is a glioma, how advanced is it?** A separate neural network predicts the glioma stage from the patient's gene-mutation results.
+2. **If it is a glioma, how advanced is it?** We added a gene-mutation dataset, and a separate neural network predicts the glioma stage from the patient's mutation results.
+3. **Can transfer learning do better?** We compared our CNN with a fine-tuned ResNet-18, following a [2025 study on lightweight transfer-learning models](https://link.springer.com/article/10.1007/s10278-025-01686-1). That work lives in [TumorSense-AI](https://github.com/21Afnan/TumorSense-AI).
 
 > Built to support a clinician's reading of a scan, never to replace it.
 
@@ -32,8 +33,7 @@ It follows the paper's two-step idea:
 | Part | Result |
 |---|---|
 | Glioma stage prediction (ANN on gene-mutation data) | 83% accuracy |
-| Multi-class tumour ROI detection (YOLOv9, reproducing an [IEEE 2024 method](https://ieeexplore.ieee.org/document/10721653)) | 97% accuracy |
-| Lightweight transfer-learning extension | CNN from scratch 92% to 94%, fine-tuned ResNet-18 96% to 97% (see [TumorSense-AI](https://github.com/21Afnan/TumorSense-AI)) |
+| Transfer-learning extension, following a [study on lightweight transfer-learning models](https://link.springer.com/article/10.1007/s10278-025-01686-1) | CNN from scratch 92% to 94%, fine-tuned ResNet-18 96% to 97% (see [TumorSense-AI](https://github.com/21Afnan/TumorSense-AI)) |
 
 ## How it works
 
@@ -87,7 +87,7 @@ NeuroAssistAI/
 
 | Layer | Technology |
 |---|---|
-| Models | PyTorch (CNN, ANN), YOLOv9, ResNet-18 |
+| Models | PyTorch (CNN, ANN), ResNet-18 |
 | Data | Kaggle Brain Tumor MRI dataset, gene-mutation records |
 | Backend | FastAPI, Uvicorn |
 | Frontend and hosting | Web app on Vercel, Ngrok for the model API |
